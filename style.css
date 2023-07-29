@@ -1,0 +1,121 @@
+
+/* Modificación general de body*/
+body{
+    font-family: 'Urbanist', sans-serif;
+    font-size: larger;
+    color: #301947 ;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 100px;
+
+}
+
+header{
+    background-image: url(https://i.gifer.com/IrF.gif);
+    height: 80px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    left: 0;
+    top: 0;
+    position: fixed;
+
+}
+/**********/ /* Edición del título principal*/ /*********/
+.main-title{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 80px;
+    color: #750E46;
+}   
+
+/******/ /*Edición de índice(lista de hipervículos)*/ /******/
+div .indice{
+    /*Quitar viñetas*/
+    list-style: none;
+    /*Permitir mover los elementos de la lista*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+div ul  li{
+    text-decoration: none;
+}
+/***************Modificar color de los elementos y separación entre c/u*/
+div .indice a{
+    color:#1A1653;
+    margin: 20px;
+}
+
+/*****************/ /* Edición de imágen introducción (principal)*/ /*****************/
+.intro-img{
+    width: 40%;
+    border-radius: 100px;
+    padding-right: 50px;
+}
+.introduction-text{
+    margin: 50px;
+    text-align: center;
+}
+
+/****************/ /* EDición de subtítulos*/ /*****************/
+.title-ingravidez{
+    font-size: 40px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: #76559A;
+    text-align: center;
+}
+.title-radiacion{
+    font-size: 40px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: #76559A;
+    text-align: center;
+}
+.title-nutricion{
+    font-size: 40px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color: #76559A;
+    text-align: center;
+}
+.title-salud-mental{
+    font-size: 40px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color:#76559A;
+    text-align: center;
+}
+.title-medicina{
+    font-size: 40px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    color:#76559A;
+    text-align: center;
+}
+
+/**********Edición de imágenes del contenido*************/
+.img-intestino{
+    width:30% ;
+    margin-right: 90px;
+    margin-top: 90px;
+    
+}
+.img-cardio{
+    width:30% ;
+    margin-right: 90px;
+    margin-top: 90px;
+    
+}
+.img-radiacion{
+    width:40%;
+    margin-left: 90px;
+    margin-top: 50px;
+    
+}
+.img-saludmen{
+    width:40% ;
+    margin-left: 90px;
+    margin-top: 90px;
+}
+/***********Bibliografía****************/
+.biblio{
+    font-size: 10px;
+}
